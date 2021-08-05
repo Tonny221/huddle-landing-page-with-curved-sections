@@ -26,6 +26,11 @@ html,
 body{
     font-family: var(--body-font);
     overflow-x: hidden;
+    width: 100vw;
+}
+
+main{
+    width: 100%;
 }
 
 a{
@@ -35,6 +40,10 @@ a{
 
 .container{
     padding: 1.75em;
+}
+
+.wrapper{
+    height: 100vh;
 }
 
 .header{
@@ -68,3 +77,92 @@ a{
     border-color: var(--button-hover-color);
 }
 
+.first-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.first-section-title{
+    font-family: var(--heading-font);
+    text-align: center;
+    font-size: 1.75rem;
+    margin-bottom: 1.25rem;
+}
+
+.first-button{
+    display: flex;
+    justify-content: center;
+}
+
+.first-section-description{
+    text-align: center;
+    font-size: 1.05rem;
+    margin-bottom: 4rem;
+}
+
+.button{
+    background: none;
+    background-color: var(--button-color);
+    padding: 0.75rem 1.75rem 0.75rem 1.75rem;
+    border-radius: 2rem;
+    color: white;
+    transition: 0.2s;
+}
+
+.button:hover{
+    background-color: var(--button-hover-color);
+}
+
+.btn-1{
+    text-align: center;
+    margin-bottom: 8rem;
+}
+
+.first-section-illustration{
+    width: 100%;
+    margin-bottom: 4rem;
+}
+
+.first-section-illustration img{
+    max-width: 100%;
+}
+
+.big-info{
+    display: flex;
+    flex-direction: column;
+    row-gap: 4rem;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.big-info-icon{
+    width: 15%;
+}
+
+.big-info-content{
+    width: 70%;
+}
+
+.big-info-title{
+    font-size: 4rem;
+}
+
+.grow-section{
+    display: flex;
+    flex-direction: column-reverse;
+    row-gap: 4rem;
+}
+
+.section-title{
+    font-size: 1.5rem;
+    font-family: var(--heading-font);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.section-description{
+    text-align: center;
+    margin-bottom: 4rem;
+}
