@@ -7,7 +7,7 @@
 
     /*Colors*/
     --button-color: hsl(322, 100%, 66%);
-    --button-hover-color: hsl(322, 100%, 66%);
+    --button-hover-color: hsl(321, 100%, 78%);
     --error-validation-color: hsl(0, 100%, 63%);
     --footer-color: hsl(192, 100%, 9%);
     --section-curved-bg-color: hsl(207, 100%, 98%);
@@ -32,3 +32,39 @@ a{
     color: black;
     text-decoration: none;
 }
+
+.container{
+    padding: 1.75em;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4em;
+}
+
+.logo{
+    max-width: 100%;
+}
+
+.logo-container{
+    width: 40%;
+}
+
+.header-button{
+    border-radius: 1.75rem;
+    font-size: 0.813rem;
+    padding: 0.25rem 0.75rem 0.25rem 0.75rem;
+    background: none;
+    color: var(--button-color);
+    border: 1px solid var(--button-color);
+    transition: 0.2s;
+}
+
+.header-button:hover{
+    color: var(--button-hover-color);
+    border-color: var(--button-hover-color);
+}
+
