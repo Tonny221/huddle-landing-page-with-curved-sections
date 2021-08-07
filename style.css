@@ -122,7 +122,7 @@ a{
 
 .first-section-illustration{
     width: 100%;
-    margin-bottom: 4rem;
+    margin-bottom: 8rem;
 }
 
 .first-section-illustration img{
@@ -134,7 +134,7 @@ a{
     flex-direction: column;
     row-gap: 4rem;
     align-items: center;
-    margin-bottom: 4rem;
+    margin-bottom: 8rem;
 }
 
 .big-info-icon{
@@ -150,9 +150,11 @@ a{
 }
 
 .grow-section{
+    position: relative;
     display: flex;
     flex-direction: column-reverse;
     row-gap: 4rem;
+    margin-bottom: 8rem;
 }
 
 .section-title{
@@ -165,4 +167,18 @@ a{
 .section-description{
     text-align: center;
     margin-bottom: 4rem;
+}
+
+.flowing-section{
+    display: flex;
+    flex-direction: column-reverse;
+    row-gap: 4rem;
+    margin-bottom: 8rem;
+}
+
+.your-section{
+    display: flex;
+    flex-direction: column-reverse;
+    row-gap: 4rem;
+    margin-bottom: 8rem;
 }
