@@ -154,7 +154,20 @@ a{
     display: flex;
     flex-direction: column-reverse;
     row-gap: 4rem;
-    margin-bottom: 8rem;
+    height: 100vh;
+}
+
+.grow-section::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: green;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    border-radius: 50%;
+    
 }
 
 .section-title{
@@ -173,12 +186,20 @@ a{
     display: flex;
     flex-direction: column-reverse;
     row-gap: 4rem;
-    margin-bottom: 8rem;
+    height: 100vh;
 }
 
 .your-section{
     display: flex;
     flex-direction: column-reverse;
     row-gap: 4rem;
-    margin-bottom: 8rem;
+    height: 100vh;
+}
+
+.ready-section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
